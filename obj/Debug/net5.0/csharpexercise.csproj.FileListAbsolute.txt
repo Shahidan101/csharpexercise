@@ -1,0 +1,16 @@
+C:\Users\shahi\Documents\git\csharpexercise\bin\Debug\net5.0\csharpexercise.exe
+C:\Users\shahi\Documents\git\csharpexercise\bin\Debug\net5.0\csharpexercise.deps.json
+C:\Users\shahi\Documents\git\csharpexercise\bin\Debug\net5.0\csharpexercise.runtimeconfig.json
+C:\Users\shahi\Documents\git\csharpexercise\bin\Debug\net5.0\csharpexercise.runtimeconfig.dev.json
+C:\Users\shahi\Documents\git\csharpexercise\bin\Debug\net5.0\csharpexercise.dll
+C:\Users\shahi\Documents\git\csharpexercise\bin\Debug\net5.0\ref\csharpexercise.dll
+C:\Users\shahi\Documents\git\csharpexercise\bin\Debug\net5.0\csharpexercise.pdb
+C:\Users\shahi\Documents\git\csharpexercise\obj\Debug\net5.0\csharpexercise.csproj.AssemblyReference.cache
+C:\Users\shahi\Documents\git\csharpexercise\obj\Debug\net5.0\csharpexercise.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\shahi\Documents\git\csharpexercise\obj\Debug\net5.0\csharpexercise.AssemblyInfoInputs.cache
+C:\Users\shahi\Documents\git\csharpexercise\obj\Debug\net5.0\csharpexercise.AssemblyInfo.cs
+C:\Users\shahi\Documents\git\csharpexercise\obj\Debug\net5.0\csharpexercise.csproj.CoreCompileInputs.cache
+C:\Users\shahi\Documents\git\csharpexercise\obj\Debug\net5.0\csharpexercise.dll
+C:\Users\shahi\Documents\git\csharpexercise\obj\Debug\net5.0\ref\csharpexercise.dll
+C:\Users\shahi\Documents\git\csharpexercise\obj\Debug\net5.0\csharpexercise.pdb
+C:\Users\shahi\Documents\git\csharpexercise\obj\Debug\net5.0\csharpexercise.genruntimeconfig.cache
