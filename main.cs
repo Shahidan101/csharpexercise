@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace csharpexercise
 {
@@ -288,7 +290,39 @@ namespace csharpexercise
                     Console.Write(" entered...\n\n");
                     
                     //Start coding here...
-                    
+
+                    int sum = 0;
+                    int potentialPrime = 1;
+                    int count = 0;
+
+                    // Local function to check if a number is prime
+                    bool IsPrime(int n)
+                    {
+                        if (n == 2 || n == 3)
+                            return true;
+
+                        if (n <= 1 || n % 2 == 0 || n % 3 == 0)
+                            return false;
+
+                        for (int i = 5; i * i <= n; i += 6)
+                        {
+                            if (n % i == 0 || n % (i + 2) == 0)
+                                return false;
+                        }
+                        return true;
+                    }
+
+                    Console.WriteLine("Calculations Running...");
+                    while (count < 500) {
+                        if (IsPrime(potentialPrime)) {
+                            sum = sum + potentialPrime;
+                            count++;                        
+                        }
+                        potentialPrime++;
+                    }
+
+                    Console.WriteLine("\nCode Completed");
+                    Console.WriteLine(sum);
                     break;
                 
                 // Exercise28
@@ -306,7 +340,43 @@ namespace csharpexercise
                     Console.Write(" entered...\n\n");
                     
                     //Start coding here...
+                    string totalWord;
+                    // Uses System.Collections.Generic 
+                    List<string> words = new List<string>();
+
+                    Console.Write("Original String: ");
+                    totalWord = Console.ReadLine();
+
+                    // Uses System.Linq 
+                    words = totalWord.Split(' ').ToList();
+
+                    words.Reverse();
+
+                    foreach (var word in words) {
+                        Console.Write(word + " ");
+                    }
+                    break;
+
+                // Exercise82
+
+                // Question:
+                // Write a C# Sharp program to remove all characters which 
+                // are non-letters from a given string.
+
+                // Sample Output:
+                // Orginal string: Py@th12on
+                // Remove all characters from the said string which are non-letters: Python
+                // Orginal string: Python 3.0
+                // Remove all characters from the said string which are non-letters: Python
+                // Orginal string: 2^sdfds*^*^jlljdslfnoswje34u230sdfds984
+                // Remove all characters from the said string which are non-letters: sdfdsjlljdslfnoswjeusdfds
+
+                case "82":
+                    Console.Write("Exercise ");
+                    Console.Write(key);
+                    Console.Write(" entered...\n\n");
                     
+                    //Start coding here...
                     break;
             }
         }
